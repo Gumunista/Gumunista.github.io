@@ -1,8 +1,12 @@
+html{
+    cursor: url('https://pm1.narvii.com/7528/044b9b5b4ac046a1c9b1a1d552af947eb427c2a3r1-554-1200v2_128.jpg'), auto;
+}
 body{
     background-color: #373daf91;
     color: #ffffff;
     font-family: helvetica, sans-serif;
     background-image: url('https://media1.tenor.com/images/9817a6fcaa9eb5008532e9de40451428/tenor.gif?itemid=17034919') ;
+   
 }
 .form{
     text-align: center;
@@ -25,4 +29,9 @@ div.pinto{
 }
 body.desgraca{
     color: black ;
+}
+img{
+width:200px;
+height:200px;
+
 }
