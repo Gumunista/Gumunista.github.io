@@ -27,6 +27,9 @@ div.pinto{
  color: red ;
 
 }
+div.pinto:hover{
+  background-image: url('https://media.tenor.com/images/f2d58327e91570e5205752c907d53bdc/tenor.gif');
+}
 body.desgraca{
     color: black ;
 }
@@ -34,4 +37,34 @@ img{
 width:200px;
 height:200px;
 
+}
+button{
+    margin-bottom: 20px !important ;
+    width: 100px  ; 
+    height: 30px ;
+    
+}
+button:hover{
+    background-color : #363636;
+    color: whitesmoke ; 
+}
+button.btn-juntarNomes:hover{
+    width: 498px;
+    height: 280px;
+    background-image: url('https://media1.tenor.com/images/89f8698fb450da25bd0c3b2d53e7fc9d/tenor.gif?itemid=9316431');
+}
+button.btn-somar:hover{
+    background-image: url('https://media.tenor.com/images/239a410743e57bebcc473a0c8c2e6db3/tenor.gif');
+    width: 220px;
+    height: 220px;
+}
+button.btn-curse:hover{
+    background-image: url('https://media1.tenor.com/images/3847dbec9aa147aa6a81f684c2778c69/tenor.gif?itemid=15771947');
+    width: 498px;
+    height: 264px;
+}
+button.btn-reset:hover{
+    background-image: url('https://i.kym-cdn.com/photos/images/original/001/145/818/a8d.gif');
+    width: 480px;
+    height: 272px;
 }
