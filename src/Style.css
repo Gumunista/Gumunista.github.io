@@ -68,3 +68,24 @@ button.btn-reset:hover{
     width: 480px;
     height: 272px;
 }
+::-webkit-scrollbar {
+    width: 50px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png') ; 
+  
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: url('/src/scroll.png'); 
+    background-position: 0px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
+.naosei {
+    background-image: url('https://media.tenor.com/images/24e175e6df37841b98a95ce86578306e/tenor.gif');
+    width:220px;
+    height: 228px; 
+}

@@ -14,7 +14,21 @@ alert(resultado);
 
 }
 function cursed(){
+  for( let i = 0; i<3 ; i++){
+    console.log('alo')
     window.open('https://i.redd.it/cx6410i0rj751.jpg', '_blank', 'top=500,left=500,width=400,height=400, toolbar=no,scrollbars=no,resizable=no' );
+  
+  }
 }
-  let brinco =  document.querySelector('button#oi')      
+  let brinco =  document.querySelector('button#oi')  
+  
+    
   brinco.addEventListener('click',cursed)
+ function metodo(){
+
+location.replace('/index.html')
+ }
+ function metadinha(){
+location.replace('/bartsad.html')
+
+ }
