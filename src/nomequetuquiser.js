@@ -32,3 +32,10 @@ location.replace('/index.html')
 location.replace('/bartsad.html')
 
  }
+ function polimerizar(){
+let input1 = document.getElementById('input1').value;
+let input2 = document.getElementById('input2').value;
+let mistura = input1 + " " + input2;
+
+document.querySelector(".testes").write(`<h1>${mistura}</h1>`);
+ }

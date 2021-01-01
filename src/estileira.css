@@ -1,12 +1,62 @@
-body{
-    background-color: #373daf91;
-    color: #ffffff;
-    font-family: helvetica, sans-serif;
-    background-image: url('https://media.tenor.com/images/9832f632e738138e02204ae27cfc41fa/tenor.gif') ;
-   
+body {
+  background-color: #373daf91;
+  color: #ffffff;
+  font-family: helvetica, sans-serif;
+  background-image: url("https://media.tenor.com/images/9832f632e738138e02204ae27cfc41fa/tenor.gif");
 }
 .link {
-    background-image: url('https://external-preview.redd.it/ivjWfQrISG_LPJftBnsnUTSwW8zHVuoJXinT5lyM2xU.jpg?auto=webp&s=c13bb4e5e12ebf0495c35129c4564ac228d381dc');
-    width:200px;
-    height: 200px; 
+  background-image: url("https://external-preview.redd.it/ivjWfQrISG_LPJftBnsnUTSwW8zHVuoJXinT5lyM2xU.jpg?auto=webp&s=c13bb4e5e12ebf0495c35129c4564ac228d381dc");
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+::-webkit-scrollbar {
+  width: 50px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png");
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: url("/src/scroll.png");
+  background-position: 0px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 0, 0, 0.4);
+}
+.daijobu {
+  position: fixed;
+  top: 250px;
+  left: 130px;
+}
+.textinho {
+  left: 500px;
+  position: relative;
+}
+.form {
+  text-align: center;
+
+  margin: 300px 0 0 0px;
+}
+input {
+  margin-bottom: 10px;
+  width: 175px;
+  height: 27px;
+}
+button {
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+}
+button.inugami:hover {
+  background-image: url("/src/andrews.jpg");
+  width: 640px;
+  height: 640px;
+}
+.testes {
+  background-image: url("/src/emanuel.jpg");
+
+  width: 640px;
+  height: 640px;
 }
