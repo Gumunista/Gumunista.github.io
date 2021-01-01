@@ -26,6 +26,16 @@ div.pinto {
 div.pinto:hover {
   background-image: url("https://media.tenor.com/images/f2d58327e91570e5205752c907d53bdc/tenor.gif");
 }
+div.penis {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+div.piroca {
+  position: absolute;
+  right: 20px;
+  top: 730px;
+}
 body.desgraca {
   color: black;
 }
